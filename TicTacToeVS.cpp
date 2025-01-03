@@ -1,3 +1,7 @@
+//This is my first project! I am currently beginning to learn
+// C++, and this was a simple program to learn the basics.
+//I created a game of tic-tac-toe against a computer player.
+
 #include <iostream>
 #include <ctime>
 #include <climits>
@@ -14,8 +18,6 @@ int main() {
     char player = 'X';
     char computer = 'O';
     bool running = true;
-
-    srand(time(0));
 
     drawBoard(spaces);
 
